@@ -11,8 +11,8 @@ Features:
 - Easy to use: Minimalistic design for an effortless user experience.
 
 Tech Stack:
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
