@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@800&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    color: #C51605;
+    padding: 2rem;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Monoton', cursive;
+}
+.btn{
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-template-rows: repeat(6,120px);
+    padding-top: 1rem;
+    gap: 10px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#disp{
+    grid-area: 1/1/2/5;
+    border-radius: 20px;
+    background-color: #F1F6F5;
+}
+.wrapper{
+    background-color: #B2B2B2;
+    padding: 1.5rem 1rem 1rem 1rem;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px #B2B2B2;
+}
+button{
+    border: none;
+    outline: none;
+    font-family: 'Cairo Play', sans-serif;
+    font-size: 2rem;
+    border-radius: 100%;
+    background-color: #F1F6F5;
+    box-shadow: 0 8px #999;
+}
+button[name="button"]:hover {
+    background-color: #D6E4E5
+}
+button[name="button"]:active {
+    background-color: #D6E4E5;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
